@@ -48,7 +48,7 @@ public class Exercicio15 {
             nomeMes = "Dezembro";
         }
 
-        if(mes == 4 || mes == 6 || mes == 9 || mes == 11 && dia > 30){
+        if((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30){
             System.out.println("Dia Inválido!, Mês possui apenas 30 dias!");
         } else if (mes == 2 && dia > 29){
             System.out.println("Dia inválido!, Fevereiro possui apenas 29 dias!");
