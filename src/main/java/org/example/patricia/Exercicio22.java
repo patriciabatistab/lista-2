@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Exercicio22 {
     public static void main(String[] args) {
-            Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite o 1º dia e mês de aniversário(dd/mm): ");
         String data1 = scanner.nextLine();
