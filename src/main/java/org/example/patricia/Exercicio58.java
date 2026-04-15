@@ -8,10 +8,10 @@ public class Exercicio58 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite uma data(DD/MM/AAAA): ");
+        System.out.print("Digite uma data(DD/MM/AAAA): ");
         String dataInput = scanner.nextLine();
 
-        System.out.println("Digite a quantidade de dias que quer adicionar: ");
+        System.out.print("Digite a quantidade de dias que quer adicionar: ");
         long qtdDias = scanner.nextInt();
 
         DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
